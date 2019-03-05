@@ -1,0 +1,31 @@
+{
+  "name": "simple-koa-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wonderbright/simple-koa-boilerplate",
+  "author": "Jirattikarn <wonderbright1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^3.0.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0"
+  },
+  "scripts": {
+    "serve": "nodemon ./index.js",
+    "test": "xo"
+  },
+  "events": {
+    "start": "node -e console.clear()"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false
+  }
+}
